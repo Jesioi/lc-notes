@@ -1,28 +1,39 @@
-# {题号}. {题名}
+# {Problem Number}. {Problem Title}
 
-- 🔗 链接：
-- 🧠 标签：
-- ⭐ 难度：Easy / Medium / Hard
-- 📅 练习日期：YYYY-MM-DD
+- 🔗 Link：
+- 🧠 Tag：
+- ⭐ Level：Easy / Medium / Hard
+- 📅 Date：YYYY-MM-DD
 
 ---
 
-## 题意（一句话总结）
+## Problem Statement
 
-## 关键观察
+## Key Insights
 - 
 
-## 解法思路
+## Approach
 1)
 2)
 
-## 易错点（我为什么错）
+## Tricky points/ Mistakes
 - 
-- 边界：
+-
 
-### 时空复杂度
+### Time and Space Complexity
+- time: O()
+- space: O()
 
-## 代码（Java）
+### Interview
+1) Clarify the problem，define input, output and edge cases.
+2) Approaches
+3) Why it works
+4) Time and space complexity
+- 
+- 
+
+
+## Code (Java)
 ```java
 // paste final accepted code
 
