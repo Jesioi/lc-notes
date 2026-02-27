@@ -6,9 +6,16 @@ git push // 推送到github
 git pull // 从github拉取最新代码
 cd // 切换目录
 ls // 列出当前目录下的文件
+q! // 退出编辑器，不保存修改
+
 
 git rebase // 把好几个commit合并，保持提交历史整洁，把当前分支的提交“挪到”另一个分支后面，不可编辑
 git rebase -i Head~3 // 交互式rebase，可以编辑提交历史，修改提交信息，合并提交等,Head~3 表示最近的3次提交
+git rebase --continue // 继续rebase
+git rebase --abort // 终止rebase，回到rebase之前的状态
+i // 在交互式rebase中，i表示修改提交信息，s表示合并提交，d表示删除提交，p表示保留提交
+wq // 在交互式rebase中，保存并退出
+
 
 
 git clone // 克隆远程仓库到本地
